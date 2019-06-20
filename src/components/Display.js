@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Display extends Component {
   render() {
     return (
-      <div>
+      <div className="displayPanel">
         {this.props.city && this.props.country && (
           <p>Temperature : {this.props.temperature}</p>
         )}

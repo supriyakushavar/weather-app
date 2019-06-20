@@ -2,7 +2,7 @@ import React from 'react';
 import Titles from './components/Titles';
 import Weather from './components/Weather';
 import Display from './components/Display';
-
+// import uuid from 'uuid';
 import './App.css';
 
 const API_key = '93249116bd279e94d181d260fe4dcb7e';
@@ -15,6 +15,7 @@ class App extends React.Component {
     city: undefined,
     country: undefined,
     error: ''
+    // id:uuid.v4()
   };
   getWeather = async e => {
     e.preventDefault();

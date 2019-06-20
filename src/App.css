@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.displayPanel {
+  background: #000;
+  display: table;
+  margin: 0 auto;
+}
+
+.displayPanel p {
+  color: #fff;
+  margin: 20px 30px;
+  font-size: 18px;
+}
