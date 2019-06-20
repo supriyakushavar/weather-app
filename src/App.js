@@ -22,7 +22,7 @@ class App extends React.Component {
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
     const result = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&APPID=${API_key}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&APPID=${API_key}&units=metric`
     );
     const data = await result.json();
     console.log(data);
