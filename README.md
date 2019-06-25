@@ -1,4 +1,11 @@
+##Weather APP 
 
+This project is created during my training at becode
+
+##Languages Used
+React Js , ES6 , Html , css
+
+This is my second project in react 
 
 
 

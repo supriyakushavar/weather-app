@@ -18,6 +18,8 @@ class Display extends Component {
           <p>City : {this.props.city}</p>
         )}
         {this.props.error && <p>{this.props.error}</p>}
+
+        {this.props.temperature > 20 ? <p>Nice Weather</p> : <p>Its Cold</p>}
       </div>
     );
   }
